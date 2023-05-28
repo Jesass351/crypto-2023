@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" modified="2023-05-28T17:10:23.327Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36" etag="eDEaINGmEa-7Nv2RjzQr" version="21.3.5" type="device">
+  <diagram name="Страница 1" id="Bz_lrxthTzE5kPFzRARQ">
+    <mxGraphModel dx="395" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dbUdUkjzLWqy8CMi3rsd-1" target="dbUdUkjzLWqy8CMi3rsd-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dbUdUkjzLWqy8CMi3rsd-2" target="dbUdUkjzLWqy8CMi3rsd-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dbUdUkjzLWqy8CMi3rsd-2" target="dbUdUkjzLWqy8CMi3rsd-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-2" value="Выбор дальнейшего действия" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dbUdUkjzLWqy8CMi3rsd-5" target="dbUdUkjzLWqy8CMi3rsd-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-5" value="Ввод данных для шифрования" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dbUdUkjzLWqy8CMi3rsd-7" target="dbUdUkjzLWqy8CMi3rsd-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-7" value="Ввод данных для расшифрования" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dbUdUkjzLWqy8CMi3rsd-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-9" value="Нажатие кнопки &quot;Шифровать&quot;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dbUdUkjzLWqy8CMi3rsd-11" target="7dLT9rwAJLstXbqfptv8-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-11" value="Нажатие кнопки &quot;Расшифровать&quot;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-34" value="Выводим зашифрованное сообщение" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dLT9rwAJLstXbqfptv8-39" target="7dLT9rwAJLstXbqfptv8-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-39" value="Вызываем функцию шифрования" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-40" value="encode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="825" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dLT9rwAJLstXbqfptv8-41" target="7dLT9rwAJLstXbqfptv8-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-41" value="Формирование K посимвольно, проверка k &amp;lt; q" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dLT9rwAJLstXbqfptv8-43" target="7dLT9rwAJLstXbqfptv8-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-43" value="Подсчёт точки R посимвольно как K*G" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dLT9rwAJLstXbqfptv8-45" target="7dLT9rwAJLstXbqfptv8-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-45" value="Подсчёт точки D посимвольно как C * G" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1091" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dLT9rwAJLstXbqfptv8-48" target="7dLT9rwAJLstXbqfptv8-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-48" value="Подсчёт точки P посимвольно как K * D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1181" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dLT9rwAJLstXbqfptv8-51" target="7dLT9rwAJLstXbqfptv8-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-51" value="Вычисление &quot;e&quot; посимвольно как (m(буква) * X) mod P" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dLT9rwAJLstXbqfptv8-56" target="7dLT9rwAJLstXbqfptv8-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-56" value="Вызываем функцию расшифрования" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dLT9rwAJLstXbqfptv8-58" target="7dLT9rwAJLstXbqfptv8-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-58" value="Вычисляем Q посимвольно как C * R" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dLT9rwAJLstXbqfptv8-60" target="7dLT9rwAJLstXbqfptv8-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-60" value="Дешифруем посимвольно" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-67" value="Выводим расшифрованное сообщение" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1091" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-69" value="decode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="825" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

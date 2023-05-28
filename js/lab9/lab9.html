@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Лабораторная 9</title>
+
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <a href="/index_page/index.html" class="btn btn-dark m-2 fs-5 w-100">На главную</a>
+        </header>
+        
+        <section class="mt-4 container-fluid">
+            <span class="fs-1 fw-bold">RSA подпись</span>            <div>
+                <div>
+                    <label for="paramP">Параметр P</label>
+                    <input type="number" id="paramP" class="form-control mb-3" min="1" default="1">
+                    <label for="paramQ">Параметр Q</label>
+                    <input type="number" id="paramQ" class="form-control mb-3" min="1" default="1">
+                    <label for="paramE">Параметр E</label>
+                    <input type="number" id="paramE" class="form-control mb-3" min="1" default="1">
+                </div>
+                <div class="w-100">
+                    <input type="text" placeholder="Ввод" id="inputTextEncRSA" class="form-control w-100 my-2">
+                    <input type="file" id="inputFileEncRSA" class="form-control w-100 my-2">
+                </div>
+                <button class="btn btn-dark w-25 p-2" id="encryptRSA">Шифровать</button>
+            </div>
+    
+            <div class="mt-4">
+                <div class="w-100">
+                    <input type="text" placeholder="Ввод" id="inputTextDeRSA" class="form-control w-100 my-2">
+                    <input type="file" id="inputFileDeRSA" class="form-control w-100 my-2">
+                </div>
+                <button class="btn btn-dark w-25 p-2" id="decryptRSA">Расшифровать</button>
+            </div>
+            <div class="mt-5">
+                <textarea name="" class="w-100 form-control" id="textareaRSA" cols="80" rows="10" readonly></textarea>
+            </div>
+        </section>
+
+        <section class="mt-4 container-fluid">
+            <span class="fs-1 fw-bold">Elgamal подпись</span>            <div>
+                <div>
+                    <label for="paramP">Параметр P</label>
+                    <input type="number" id="paramPEl" class="form-control mb-3" min="1" default="1">
+                    <label for="paramX">Параметр X</label>
+                    <input type="number" id="paramX" class="form-control mb-3" min="1" default="1">
+                    <label for="paramG">Параметр G</label>
+                    <input type="number" id="paramG" class="form-control mb-3" min="1" default="1">
+
+                    <label for="paramK">Параметр K</label>
+                    <input id="paramK" class="form-control mb-3">
+
+                    <label for="paramY">Параметр Y (для проверки)</label>
+                    <input id="paramY" class="form-control mb-3">
+                </div>
+                <div class="w-100">
+                    <input type="text" placeholder="Ввод" id="inputTextEncEl" class="form-control w-100 my-2">
+                    <input type="file" id="inputFileEncEl" class="form-control w-100 my-2">
+                </div>
+                <button class="btn btn-dark w-25 p-2" id="encryptEl">Шифровать</button>
+            </div>
+    
+            <div class="mt-4">
+                <div class="w-100">
+                    <input type="text" placeholder="Ввод" id="inputTextDeEl" class="form-control w-100 my-2">
+                    <input type="file" id="inputFileDeEl" class="form-control w-100 my-2">
+                </div>
+                <button class="btn btn-dark w-25 p-2" id="decryptEl">Расшифровать</button>
+            </div>
+            <div class="mt-5">
+                <textarea name="" class="w-100 form-control" id="textareaEl" cols="80" rows="10" readonly></textarea>
+            </div>
+        </section>
+
+        <section class="mt-4 container-fluid">
+            <span class="fs-1 fw-bold">ECC</span> 
+            <div>
+                <div>
+                    <label for="paramP">Параметр K</label>
+                    <input type="number" id="paramKEcc" class="form-control mb-3" min="1" default="1">
+                    <label for="paramP">Параметр С</label>
+                    <input type="number" id="paramCEcc" class="form-control mb-3" min="1" default="1">
+                    <p>Ep(a,b)</p>
+                    <label for="paramX">Параметр P кривой</label>
+                    <input type="number" id="paramPEcc" class="form-control mb-3" min="1" default="1">
+                    <label for="paramG">Параметр A кривой</label>
+                    <input type="number" id="paramAEcc" class="form-control mb-3" min="1" default="1">
+                    <label for="paramG">Параметр B кривой</label>
+                    <input type="number" id="paramBEcc" class="form-control mb-3" min="1" default="1">
+
+                    <p>G(x,y)</p>
+                    <label for="paramG">X</label>
+                    <input type="number" id="paramXEcc" class="form-control mb-3" min="1" default="1">
+                    <label for="paramG">Y</label>
+                    <input type="number" id="paramYEcc" class="form-control mb-3" min="1" default="1">
+
+                  
+                </div>
+                <div class="w-100">
+                    <input type="text" placeholder="Ввод" id="inputTextEncECC" class="form-control w-100 my-2">
+                    <input type="file" id="inputFileEncECC" class="form-control w-100 my-2">
+                </div>
+                <button class="btn btn-dark w-25 p-2" id="encryptECC">Шифровать</button>
+            </div>
+    
+            <div class="mt-4">
+                <div class="w-100">
+                    <input type="text" placeholder="Ввод" id="inputTextDeECC" class="form-control w-100 my-2">
+                    <input type="file" id="inputFileDeECC" class="form-control w-100 my-2">
+                </div>
+                <button class="btn btn-dark w-25 p-2" id="decryptECC">Расшифровать</button>
+            </div>
+            <div class="mt-5">
+                <textarea name="" class="w-100 form-control" id="textareaECC" cols="80" rows="10" readonly></textarea>
+            </div>
+        </section>
+        
+    </div>
+    
+    <script src="rsapodpicb.js"></script>
+    <script src="elgamalpodpicb.js"></script>
+    <script src="/alphabets.js"></script>
+</body>
+</html>
