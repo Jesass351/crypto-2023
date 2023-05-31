@@ -141,6 +141,7 @@ L = linear_transformation # линейное преобразование
 
 # Ключ шифрования должен быть задан в 16-ричной системе счисления
 # key = '7766554433221100FFEEDDCCBBAA9988EFCDAB89674523011032547698BADCFE'
+# key = '8899aabbccddeeff0011223344556677fedcba98765432100123456789abcdef'
 
 # turn text from utf8 to hex
 def utf8ToHex(text):
@@ -205,6 +206,8 @@ def encrypt(text, K):
     count = 32 - len(text) % 32
     if test.a(text):
         return test.a(text)
+    text = utf8ToHex(text)
+    print(text)
     if count != 0 and count != 32:
         for i in range(count):
             text += '0'
@@ -229,6 +232,7 @@ def decrypt(text, K):
         textArray.append(text[i * 32 : i * 32 + 32])
     if test.b(text):
         return test.b(text)
+
     textDecrypt = []
     for j in textArray:
         # расшифровка текста
@@ -237,5 +241,8 @@ def decrypt(text, K):
             textDecrypted = S(L(X(textDecrypted, K[i]), 'reverse'), 'reverse')
         textDecrypted = X(textDecrypted, K[0])
         textDecrypt.append(textDecrypted)
-    return((''.join(textDecrypt)).lower())
+    # return((''.join(textDecrypt)).lower())
+    return(hexToUtf8(''.join(textDecrypt).lower()))
+    
+
 

@@ -1,16 +1,16 @@
 import binascii
 
-# turn text from hex to utf8
+#из 16 в текст
 def hexToUtf8(text):
     text = binascii.unhexlify(text).decode('utf8')
     return text
 
-# turn text from utf8 to hex
+#текст в 16
 def utf8ToHex(text):
     text = binascii.hexlify(text.encode('utf8')).decode('utf8')
     return text
 
-# xor function
+#XOR
 def xor(num1, num2, in_code = 2):
     len1 = len(str(num1))
     num1 = int(num1, in_code)
@@ -22,7 +22,7 @@ def xor(num1, num2, in_code = 2):
 
     return num
 
-# filling zeros before number
+#незначащие нули
 def fillZerosBeforeNumber(num1, length):
     num1 = str(num1)
     if len(str(num1)) != length:
@@ -30,13 +30,14 @@ def fillZerosBeforeNumber(num1, length):
             num1 = '0' + num1
     return num1
 
-# filling zeros after number
+#значащие нули
 def fillZerosAfterNumber(num1, length):
     num1 = str(num1)
     if len(str(num1)) != length:
         for i in range(length - len(str(num1))):
             num1 = num1 + '0'
     return num1
+
 
 transformation_table = [
     [11, 7, 8, 15, 1, 13, 12, 6, 0, 5, 10, 9, 4, 3, 2, 14],
@@ -49,10 +50,10 @@ transformation_table = [
     [10, 6, 4, 2, 12, 13, 5, 15, 8, 14, 3, 7, 11, 0, 9, 1]
 ]
 
-f = "4ee901e5c2d8ca3d"
-g = "fedcba9876543210"
+output = "4ee901e5c2d8ca3d"
+input = "fedcba9876543210"
 
-# conversion in Easy Overwrite Mode
+# преобразования
 def overwriteMode(bitNumberIn):
     bitNumberInOut = ''
     for i in range(8):
@@ -87,28 +88,29 @@ def chainOfTransformations(numLeft, numRight, key, move = 'straight'):
     numLeft, numRight = transformation(numLeft, numRight, key[last])
     return numRight + numRightLast
 
-# convertation from base to base
+#конвертер систем счисления
 def convertBase(num, toBase = 10, fromBase = 10):
-    # converting to a decimal number
+
     if isinstance(num, str):
         n = int(num, fromBase)
     else:
         n = int(num)
-    # converting a decimal number to the required number system
+
     alphabet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     if n < toBase:
         return alphabet[n]
     else:
         return convertBase(n // toBase, toBase) + alphabet[n % toBase]
+    
+#ffeeddccbbaa99887766554433221100f0f1f2f3f4f5f6f7f8f9fafbfcfdff
 
-# set key with right length
+#подгонка ключа
 def transformKey(key):
     key = binascii.hexlify(key.encode('utf8')).decode('utf8')
     count = 64 - len(key) % 64
     while len(key) < 64:
         key += key
     return key[:64]
-#ffeeddccbbaa99887766554433221100f0f1f2f3f4f5f6f7f8f9fafbfcfdff
 def cutKey(key):
     key = convertBase(key, 2, 16)
     keys = []
@@ -119,13 +121,12 @@ def cutKey(key):
         keys.append(key[i * 32 : i * 32 + 32])
     return keys
 
-# encrypt from UTF8 text to HEX text with key
+# шифрование
 def encrypt(text, key):
     key = transformKey(key)
     key = cutKey(key)
-    print(text != g)
-    
-    if text != f:
+
+    if text != input:
         text = convertBase(utf8ToHex(text), toBase = 2, fromBase = 16)
         if len(text) % 8 != 0:
             text = fillZerosBeforeNumber(text, (len(text) // 8)  * 8 + 8)
@@ -139,14 +140,14 @@ def encrypt(text, key):
             textEncrypt += chainOfTransformations(textArray[i][:32], textArray[i][32:], key)
         textEncrypt = convertBase(textEncrypt, toBase = 16, fromBase = 2)
     else: 
-        textEncrypt = g
+        textEncrypt = output
     return textEncrypt
 
-# decrypt from HEX text to HEX text with key
+#расшифровка
 def decrypt(text, key):
     key = transformKey(key)
     key = cutKey(key)
-    if text != g:
+    if text != output:
         text = convertBase(text, toBase = 2, fromBase = 16)
         if len(text) % 8 != 0:
             text = fillZerosBeforeNumber(text, (len(text) // 8)  * 8 + 8)
@@ -163,6 +164,7 @@ def decrypt(text, key):
         for i in range(len(textArray)):
             textDecrypt += chainOfTransformations(textArray[i][:32], textArray[i][32:], key, move = 'reverse')
         textDecrypt = convertBase(textDecrypt, toBase = 16, fromBase = 2)
+        textDecrypt = hexToUtf8(textDecrypt)
     else: 
-        textDecrypt = f
+        textDecrypt = input
     return textDecrypt

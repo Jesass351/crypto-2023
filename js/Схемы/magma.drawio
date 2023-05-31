@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" modified="2023-05-31T19:17:48.066Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.603 Yowser/2.5 Safari/537.36" etag="qpTrZm5_j6iqh8b_3cSP" version="21.3.5" type="device">
+  <diagram name="Страница 1" id="Bz_lrxthTzE5kPFzRARQ">
+    <mxGraphModel dx="1434" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dbUdUkjzLWqy8CMi3rsd-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbUdUkjzLWqy8CMi3rsd-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="7dLT9rwAJLstXbqfptv8-133" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="1370" />
+              <mxPoint x="-90" y="1020" />
+            </Array>
+            <mxPoint x="-20" y="1370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7dLT9rwAJLstXbqfptv8-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7dLT9rwAJLstXbqfptv8-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="1539" />
+              <mxPoint x="-90" y="1020" />
+            </Array>
+            <mxPoint x="20" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-1" target="oslQPeNW5Rugcy4yT3F6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-1" value="Ввод текста для шифрования" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-2" target="oslQPeNW5Rugcy4yT3F6-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-2" value="Ввод ключа" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-4" target="oslQPeNW5Rugcy4yT3F6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-4" value="Преобразование ключа до нужной длины (64)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-6" target="oslQPeNW5Rugcy4yT3F6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-6" value="Преобразование текста в 16-тиричный формат&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-8" target="oslQPeNW5Rugcy4yT3F6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-8" value="Преобразование текста в двоичный формат" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-10" target="oslQPeNW5Rugcy4yT3F6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-10" value="Отделение блоков по 64 бита" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-12" target="oslQPeNW5Rugcy4yT3F6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-12" value="Поблоковое выполнение прямой цепочки преобразований с использование ключа" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="860" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-14" target="oslQPeNW5Rugcy4yT3F6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-14" value="Преобразование полученного в шестнадцатиричный текст" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-16" target="oslQPeNW5Rugcy4yT3F6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-16" value="Вывод зашифрованного сообщения" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-19" target="oslQPeNW5Rugcy4yT3F6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-19" value="Вызов функции шифрование" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-22" target="oslQPeNW5Rugcy4yT3F6-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-22" value="Вызов функции расшифрования" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-24" target="oslQPeNW5Rugcy4yT3F6-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-24" value="Преобразование ключа до нужной длины (64)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-26" target="oslQPeNW5Rugcy4yT3F6-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-26" value="Перевод текста в двоичную систему счисления" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-28" target="oslQPeNW5Rugcy4yT3F6-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-28" value="Отделение блоков по 64 бита" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-30" target="oslQPeNW5Rugcy4yT3F6-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-30" value="Поблоковое выполнение обратной цепочки преобразований с использование ключа" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1180" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-34" target="oslQPeNW5Rugcy4yT3F6-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-34" value="Преобразование полученного в шестнадцатиричный текст" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-35" target="oslQPeNW5Rugcy4yT3F6-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-35" value="Преобразование в читаемый текст" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oslQPeNW5Rugcy4yT3F6-37" target="oslQPeNW5Rugcy4yT3F6-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-37" value="Вывод расшифрованного сообщения" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oslQPeNW5Rugcy4yT3F6-41" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1460" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
